@@ -1,0 +1,34 @@
+*{margin:0px;padding:0px;font-family:consolas,monospace;font-size:13px;font-weight:normal;font-style:normal;color:#333;}
+body{
+background-color:#eed;
+overflow-x:hidden;
+background-image:url('../images/computer.jpg');
+background-size:auto;
+background-position:center center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+margin:0px auto;
+max-width:720px;
+}
+a{text-decoration:none;color:#37b;}a:hover{color:#7b3;}.m-server-header{padding:15px;text-align:center;border-bottom:1px dotted #bbb;font-size:19px;}#m-server-copyright{padding:15px;text-align:center;border-top:1px dotted #bbb;}.m-server-body{padding:15px;font-size:13px;background-color:#ffe;}.m-server-icon{background-repeat:no-repeat;background-position:4px 5px;}.m-server-icon:before{content:"\2610";color:transparent;}.m-server-body{overflow-x:auto;}.m-server-body{overflow-x:auto;}th{padding:5px 5px;border-bottom:1px dotted #bbb;white-space:pre;font-weight:bold;}td{padding:2px 5px;border-bottom:1px dotted #bbb;white-space:pre;}
+.iklan{
+padding:20px 20px 350px;
+margin:0px;
+background-color:#111;
+opacity:0.7;
+color:#fff;
+white-space:pre-wrap;
+text-shadow:0px 0px 3px #fff;
+}
+.iklan b{font-weight:bold;}
+.iklan i{font-style:italic;}
+.iklan b,.iklan i,.iklan a{color:#3cf;}
+.iklan,.iklan b,.iklan i,.iklan a{font-size:13px;}
+img{max-width:75%;}
+
+
+
+@media screen and (max-width:360px){
+  .iklan,.iklan b,.iklan i,.iklan a{font-size:8px;}
+  img{max-width:85%;}
+}
