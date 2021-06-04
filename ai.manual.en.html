@@ -19,18 +19,18 @@
 Version 0.2.2 (June 4th 2021)
 
 
-<a href="index.html">[Home]</a> &middot; <a href="ai.manual.en.html">[English US]</a> &middot; <b>[Bahasa Indonesia]</b>
+<a href="ai.intro.en.html">[Home]</a> &middot; <b>[English US]</b> &middot; <a href="ai.manual.id.html">[Bahasa Indonesia]</a>
 
 
 <b>A. Help and Information</b>
 
-Salah perintah yang sudah tersedia dalam system AI adalah <i>help</i>, untuk mengaksesnya cukup dengan mengetik:
+One of the most command in AI system is <i>help</i>, just type:
   $ ai help
   <img src="images/ai.help.01.jpg" />
 
-Seperti system lain pada umumnya, perintah <i>help</i> ini adalah perintah yang sangat penting untuk membantu pengguna dalam menggunakan system tersebut, tanpa ini kita akan sulit menggunakan system yang dipakai.
+Generally, every system has a <i>help</i> command, this is very important to help user to know documentation.
 
-Dalam perintah <i>help</i> ini, terdapat informasi tentang perintah lain yang sudah tersedia. Pada system AI secara default sudah terinstal beberapa perintah core, yaitu:
+In this <i>help</i> command, there are many information about the available commands. And AI system default has installed few commands:
 
  1. config
  2. crypto
@@ -44,7 +44,7 @@ Dalam perintah <i>help</i> ini, terdapat informasi tentang perintah lain yang su
 10. upgrade
 11. version
 
-Beberapa dari perintah diatas adalah extension yang tertanam didalam core system AI, diantaranya: config, pkg, reg, test dan tool, sisanya adalah core dari system tersebut.
+Some of them are core extensions, including: config, pkg, reg, test and tool, the rest are directly from core.
 
 ...
 
@@ -58,72 +58,73 @@ Beberapa dari perintah diatas adalah extension yang tertanam didalam core system
 
 <b>C. Cryptographic</b>
 
-Saya tidak terlalu suka basa-basi, kita akan langsung saja mencoba encrypt sebuah file media ataupun document.
+I'm not expect too many words, we're gonna directly try to  encrypt some media file or document.
 
-  1. Sebelumnya kita cek dulu opsi pada perintah crypto.
+  1. Before we start, we need to check the options in crypto.
      $ ai crypto help
      <img src="images/ai.crypto.help.jpg" />
 
-  2. Rubah directory dimana file yang ingin dienkrip itu berada.
-     Bila berada di /sdcard maka ketik:
+  2. Change directory where the file is.
+     For example /sdcard then type:
      $ cd /sdcard
 
-     Cek lokasi directory dengan
+     Check directory location with
      $ pwd
 
-     Lalu cek file list didalam directory dengan
+     Then check file inside directory with
      $ ls
      <img src="images/ai.crypto.sample.01.jpg" />
 
-  3. Kali ini kita akan enkrip sebuah file bernama:
+  3. This time we're gonna try to encrypt a file named:
      --> nobody-2021-bus-fight-marked.mp4
 
-     Untuk mengenkripnya cukup dengan pola ini:
-     $ ai crypto &lt;nama_file&gt;
+     To encrypt the file, use this pattern:
+     $ ai crypto &lt;filename&gt;
 
-     Maka kita akan ketik:
+     Then we type:
      $ ai crypto nobody-2021-bus-fight-marked.mp4
      <img src="images/ai.crypto.sample.02.jpg" />
-     Lalu masukan kata sandi untuk membuka kuncinya nanti.
+     Then insert your password to decrypt next time.
 
-  4. Optional, compress file menjadi file zip.
-     Ini sangat perlu untuk file document.
-     Namun file mp4 adalah media, jadi aman tanpa compress.
-     Ketik n, lalu Enter,
+  4. Optional, compress the file to zip.
+     This very important for document file.
+     But mp4 is a media file, no needs to compress.
+     Type n, then press Enter,
      <img src="images/ai.crypto.sample.03.jpg" />
 
-  5. Jika sudah, proses enkripsi akan mulai.
-     Lalu kita menunggu proses enkripisasi tersebut.
+  5. After that, the encryption will be proceeding.
+     Wait for it.
      <img src="images/ai.crypto.sample.04.jpg" />
 
-  6. Jika selesai dan berhasil, muncul,
+  6. If complete succesfully, will show this,
      <img src="images/ai.crypto.sample.05.jpg" />
      
-  7. Cek file yang baru saja di enkrip.
+  7. Check the file inside directory,
      $ ls
      <img src="images/ai.crypto.sample.06.jpg" />
 
-     Akan terlihat file yang bernama
+     Then the file named
      --> nobody-2021-bus-fight-marked.mp4
-     menjadi,
+     has been encrypted and renamed to
      --> nobody-2021-bus-fight-marked.mp4.crypto
 
-  8. Untuk mengembalikan file tersebut cukup dengan pola:
+  8. To reverse or decrypt the file, use this pattern:
      $ ai crypto &lt;nama_file&gt;
 
-     Untuk mengenkripnya cukup dengan mengetik:
+     Simply type:
      $ ai crypto nobody-2021-bus-fight-marked.mp4.crypto
      <img src="images/ai.crypto.sample.07.jpg" />
-     Lalu masukan kata sandi untuk kunci file ini
+     Then insert your password of the file.
 
-    Tunggu hingga proses selesai
+    Wait until complete,
     <img src="images/ai.crypto.sample.08.jpg" />
 
-    Jika sudah, cek file dengan mengetik
+    Done and check the file inside directory,
     $ ls
     <img src="images/ai.crypto.sample.09.jpg" />
 
-    Play the decrypted file and check media meta-data,
+    Try to play the decrypted file.
+    And also check media meta-data for sure.
     <img src="images/ai.crypto.media.sample.jpg" />
     
 
