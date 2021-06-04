@@ -26,19 +26,22 @@ text-shadow:0px 0px 3px #fff;
 .iklan,.iklan b,.iklan i,.iklan a{font-size:13px;}
 img{max-width:75%;}
 .totop{
-background-color:transparent;
+background-color:#eed;
 overflow:hidden;
-background-image:url('../images/top90.png');
+background-image:url('../images/top70.png');
 background-size:auto;
 background-position:center center;
 background-repeat:no-repeat;
 margin:0px;
-width:90px;
-height:90px;
+width:70px;
+height:70px;
 position:fixed;
 z-index:9;
 right:10px;
 bottom:10px;
+opacity:0.8;
+border-radius:17px;
+filter:hue-rotate(160deg);
 }
 
 @media screen and (max-width:360px){
@@ -47,6 +50,7 @@ bottom:10px;
   .totop{
     width:40px;height:40px;
     background-image:url('../images/top40.png');
+    border-radius:10px;
   }
 }
 
