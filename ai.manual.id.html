@@ -1,0 +1,172 @@
+<!DOCTYPE html><html lang="en-US" dir="ltr"><head><meta http-equiv="content-type" content="text/html;charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" /><title>Index of /</title><meta name="description" content="Private Server" /><meta name="keywords" content="server, directory" /><meta name="robots" content="no follow,no index" /><meta name="author" content="9r3i" /><meta name="uri" content="github.com/9r3i" /><style tyle="text/css" media="screen,print">
+*{margin:0px;padding:0px;font-family:consolas,monospace;font-size:13px;font-weight:normal;font-style:normal;color:#333;}
+body{
+background-color:#eed;
+overflow-x:hidden;
+background-image:url('images/computer.jpg');
+background-size:auto auto;
+background-position:center center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+a{text-decoration:none;color:#37b;}a:hover{color:#7b3;}.m-server-header{padding:15px;text-align:center;border-bottom:1px dotted #bbb;font-size:19px;}#m-server-copyright{padding:15px;text-align:center;border-top:1px dotted #bbb;}.m-server-body{padding:15px;font-size:13px;background-color:#ffe;}.m-server-icon{background-repeat:no-repeat;background-position:4px 5px;}.m-server-icon:before{content:"\2610";color:transparent;}.m-server-body{overflow-x:auto;}.m-server-body{overflow-x:auto;}th{padding:5px 5px;border-bottom:1px dotted #bbb;white-space:pre;font-weight:bold;}td{padding:2px 5px;border-bottom:1px dotted #bbb;white-space:pre;}
+
+
+.iklan{
+padding:20px 10px 350px;
+margin:0px;
+background-color:#111;
+opacity:0.7;
+color:#fff;
+white-space:pre-wrap;
+text-shadow:0px 0px 3px #fff;
+}
+.iklan b{
+font-weight:bold;
+color:#3cf;
+}
+.iklan i{
+font-style:italic;
+color:#3cf;
+}
+
+.iklan,.iklan b,.iklan i{
+font-size:8px;
+}
+
+img{
+  max-width:80%;
+}
+</style>
+</head><body>
+<div class="iklan">
+<b>AI (Ayyub-Isa) Console System</b>
+<i>(not artificial intelligence)</i>
+
+
+<b>🇪‌🇳‌🇩-🇺‌🇸‌🇪‌🇷‌ 🇲‌🇦‌🇳‌🇺‌🇦‌🇱‌</b>
+Version 0.2.1 (June 3rd 2021)
+
+
+<b>A. Help and Information</b>
+
+Salah perintah yang sudah tersedia dalam system AI adalah <i>help</i>, untuk mengaksesnya cukup dengan mengetik:
+  $ ai help
+  <img src="images/ai.help.01.jpg" />
+
+Seperti system lain pada umumnya, perintah <i>help</i> ini adalah perintah yang sangat penting untuk membantu pengguna dalam menggunakan system tersebut, tanpa ini kita akan sulit menggunakan system yang dipakai.
+
+Dalam perintah <i>help</i> ini, terdapat informasi tentang perintah lain yang sudah tersedia. Pada system AI secara default sudah terinstal beberapa perintah core, yaitu:
+
+ 1. config
+ 2. crypto
+ 3. help
+ 4. install
+ 5. license
+ 6. pkg
+ 7. reg
+ 8. test
+ 9. tool
+10. upgrade
+11. version
+
+Beberapa dari perintah diatas adalah extension yang tertanam didalam core system AI, diantaranya: config, pkg, reg, test dan tool, sisanya adalah core dari system tersebut.
+
+...
+
+
+
+<b>B. Configuration</b>
+
+...
+
+
+
+<b>C. Cryptographic</b>
+
+Saya tidak terlalu suka basa-basi, kita akan langsung saja mencoba encrypt sebuah file media ataupun document.
+
+  1. Sebelumnya kita cek dulu opsi pada perintah crypto.
+     $ ai crypto help
+     <img src="images/ai.crypto.help.jpg" />
+
+  2. Rubah directory dimana file yang ingin dienkrip itu berada.
+     Bila berada di /sdcard maka ketik:
+     $ cd /sdcard
+
+     Cek lokasi directory dengan
+     $ pwd
+
+     Lalu cek file list didalam directory dengan
+     $ ls
+     <img src="images/ai.crypto.sample.01.jpg" />
+
+  3. Kali ini kita akan enkrip sebuah file bernama:
+     --> nobody-2021-bus-fight-marked.mp4
+
+     Untuk mengenkripnya cukup dengan pola ini:
+     $ ai crypto &lt;nama_file&gt;
+
+     Maka kita akan ketik:
+     $ ai crypto nobody-2021-bus-fight-marked.mp4
+     <img src="images/ai.crypto.sample.02.jpg" />
+     Lalu masukan kata sandi untuk membuka kuncinya nanti.
+
+  4. Optional, compress file menjadi file zip.
+     Ini sangat perlu untuk file document.
+     Namun file mp4 adalah media, jadi aman tanpa compress.
+     Ketik n, lalu Enter,
+     <img src="images/ai.crypto.sample.03.jpg" />
+
+  5. Jika sudah, proses enkripsi akan mulai.
+     Lalu kita menunggu proses enkripisasi tersebut.
+     <img src="images/ai.crypto.sample.04.jpg" />
+
+  6. Jika selesai dan berhasil, muncul,
+     <img src="images/ai.crypto.sample.05.jpg" />
+     
+  7. Cek file yang baru saja di enkrip.
+     $ ls
+     <img src="images/ai.crypto.sample.06.jpg" />
+
+     Akan terlihat file yang bernama
+     --> nobody-2021-bus-fight-marked.mp4
+     menjadi,
+     --> nobody-2021-bus-fight-marked.mp4.crypto
+
+  8. Untuk mengembalikan file tersebut cukup dengan pola:
+     $ ai crypto &lt;nama_file&gt;
+
+     Untuk mengenkripnya cukup dengan mengetik:
+     $ ai crypto nobody-2021-bus-fight-marked.mp4.crypto
+     <img src="images/ai.crypto.sample.07.jpg" />
+     Lalu masukan kata sandi untuk kunci file ini
+
+    Tunggu hingga proses selesai
+    <img src="images/ai.crypto.sample.08.jpg" />
+
+    Jika sudah, cek file dengan mengetik
+    $ ls
+    <img src="images/ai.crypto.sample.09.jpg" />
+
+    Play the decrypted file and check media meta-data,
+    <img src="images/ai.crypto.media.sample.jpg" />
+    
+
+
+<b>D. Registration</b>
+
+
+
+<b>[IN-PROGRESS]</b>
+
+<i>Writing...</i>
+
+
+
+
+
+</div>
+</body></html>
+
+
